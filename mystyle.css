@@ -1,0 +1,82 @@
+body {
+padding-left: 1em;
+font-family: "华文中宋",sans-serif,Helvetica, Geneva, Arial,
+           SunSans-Regular, sans-serif;
+font-weight:bold;
+background-image:url("bgimage.jpg");
+background-size: cover;
+}
+h1{
+  padding:30px;
+  text-align:center;
+  color:white;
+}
+h2{
+  padding:15px;
+  text-align:center;
+  color:white;
+}
+h3{
+  padding:15px;
+  color:white;
+}
+p{font-size: 15px;
+  color:black
+}
+button{
+background-color:maroon;
+color:white;
+padding:10px 50px;
+text align:center;
+border-color: black;
+font-size:15px;
+}
+img {
+   border: 2px solid #000;
+           }
+
+#blank{background-color:GhostWhite;}
+
+.zoomImage{
+    width:100%;
+    height:0;
+    padding-bottom: 100%;
+    overflow:hidden;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+}
+
+
+#header .item{
+    width:100%;
+    height: 20em;
+    min-height:100px;
+    max-height:500px;
+}
+#header .bg1{
+    background: url("峰顶.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+#header .bg2{
+    background: url("I m not gonna die yet.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+#header .bg3{
+    background: url("意气风发.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+#header .bg4{
+    background: url("飞吧.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+#header .bg5{
+    background: url("不过是这样的自己.jpg") no-repeat center fixed;
+    background-size: cover;
+}
+#header .bg6{
+    background: url("看影子的人.jpg") no-repeat center fixed;
+    background-size: cover;
+}

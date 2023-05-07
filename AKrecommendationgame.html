@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="mystyle.css">
+    <script src="script.js"></script>
+     <title>GAME</title>
+  </head>
+  <body>
+    <link rel="stylesheet" href="mystyle.css">
+    <h1>TEST WHICH SONG FIT YOU MOST</h1>
+    <h2>
+      <b>
+      This is a recommendation game for AKLiuzhang's songs.<br>
+      You will find the fitest song through the below 5 questions.<br>
+      The specific song will be recommended accrouding to your test result.<br>
+      It's also welcomed to play other songs besides the recommended one!<br>
+      </b>
+    </h2>
+    <form>
+    <fieldset>
+    <h3>Single choice</h3>
+    <div id="blank">
+    <fieldset class ="question">
+    <p id="1">Qeustion 1: 当有人批评你时，你的第一反应是?</p>
+    <label><input type="radio" name="answer1" value="10"/>立即反驳对方的观点</label>
+    <br />
+    <label ><input type="radio" name="answer1"  value="20"/>仔细反思一下对方说是否确实有理</label>
+    </fieldset>
+
+    <fieldset class ="question">
+    <p id="2">Qeustion 2: 心情不好的时候你更想去的地方是？</p>
+    <label><input type="radio" name="answer2" value="10"/>在Livehouse里挥洒汗水</label>
+    <br />
+    <label ><input type="radio" name="answer2"  value="20"/>去街心公园慢走散心</label>
+    </fieldset>
+
+    <fieldset class ="question">
+    <p id="3">Qeustion 3: 你更喜欢以下哪个场景？</p>
+    <label><input type="radio" name="answer3" value="10"/>陡峭的断崖下海浪惊涛拍岸</label>
+    <br />
+    <label ><input type="radio" name="answer3"  value="20"/>微风吹过麦田金色延伸到天际线</label>
+    </fieldset>
+
+    <fieldset class ="question">
+    <p id="4">Qeustion 4: 你更喜欢倾向于以下哪种观点？</p>
+    <label><input type="radio" name="answer4" value="10"/>争取更多权力地位</label>
+    <br />
+    <label ><input type="radio" name="answer4"  value="20"/>收获更多人的喜欢</label>
+    </fieldset>
+
+    <fieldset class ="question">
+    <p id="5">Qeustion 5:以下哪个描述更贴近你？</p>
+    <label><input type="radio" name="answer5" value="10"/>在外武装保护真实的自己</label>
+    <br />
+    <label ><input type="radio" name="answer5"  value="20"/>愿意主动袒露自己的脆弱</label>
+    </fieldset>
+    <fieldset>
+    <button type="button" onclick="coreCount()" class="button">Cores</button>
+
+<!--    轮播图开始-->
+    <div id="header" class="carousel slide">
+        <!-- 轮播(Carousel)指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#header" data-slide-to="0" class="active"></li>
+            <li data-target="#header" data-slide-to="1"></li>
+            <li data-target="#header" data-slide-to="2"></li>
+            <li data-target="#header" data-slide-to="3"></li>
+            <li data-target="#header" data-slide-to="4"></li>
+            <li data-target="#header" data-slide-to="5"></li>
+        </ol>
+        <div id="" class="carousel slide">
+
+            </ol>
+            <!-- 轮播(Carousel)项目 -->
+            <div class="carousel-inner">
+                <div class="item bg1 active">
+<!--                    <img src="/img/1.jpg" alt="1">-->
+                </div>
+                <div class="item bg2">
+<!--                    <img src="/img/2.png" alt="2">-->
+                </div>
+                <div class="item bg3">
+<!--                    <img src="/img/3.png" alt="3">-->
+                </div>
+                <div class="item bg4">
+<!--                    <img src="/img/3.png" alt="3">-->
+                </div>
+                <div class="item bg5">
+<!--                    <img src="/img/3.png" alt="3">-->
+                </div>
+                <div class="item bg6">
+<!--                    <img src="/img/3.png" alt="3">-->
+                </div>
+            </div>
+            <!-- 轮播(Carousel)导航 -->
+            <a class="left carousel-control" href="#header" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">上一条</span>
+            </a>
+            <a class="right carousel-control" href="#header" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">下一条</span>
+            </a>
+
+        </div>
+
+    <!--    轮播图结束-->
+    </div>
+
+
+
+
+<p>
+      <a href="https://www.bilibili.com/video/BV1kM4y1c7Yg/?share_source=copy_web" target="_blank">分数50分，最适合你的歌是《峰顶》｜“用墨水染不黑的白”</a><br>
+      <a href="https://www.bilibili.com/video/BV1tP411U75f/?share_source=copy_web" target="_blank">分数60分，最适合你的歌是《I‘m not gonna die yet》｜“我抓住世界的衣领”</a><br>
+      <a href="https://www.bilibili.com/video/BV1vN4y177CM/?share_source=copy_web" target="_blank">分数70分，最适合你的歌是《意气风发》｜“注定褒贬里跋山涉水”</a><br>
+      <a href="https://www.bilibili.com/video/BV1rF411n7Es/?share_source=copy_web" target="_blank">分数80分，最适合你的歌是《飞吧》｜“风，请你吹我到天涯到海角”</a><br>
+      <a href="https://www.bilibili.com/video/BV1GW4y1r7CV/?share_source=copy_web" target="_blank">分数90分，最适合你的歌是《不过是这样的自己》｜“让孤独充斥血管，麻木内心声音”</a><br>
+      <a href="https://www.bilibili.com/video/BV1me4y1L7U5/?share_source=copy_web" target="_blank">分数100分，最适合你的歌是《看影子的人》｜“就这样向光转身吧”</a><br>
+</p>
+    </fieldset>
+    <p>
+  <a class="btn btn-primary" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle first element</a>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle second element</button>
+  <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+</p>
+<div class="row">
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample1">
+      <div class="card card-body">
+        Some placeholder content for the first collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="collapse multi-collapse" id="multiCollapseExample2">
+      <div class="card card-body">
+        Some placeholder content for the second collapse component of this multi-collapse example. This panel is hidden by default but revealed when the user activates the relevant trigger.
+      </div>
+    </div>
+  </div>
+</div>
+  </form>
+    </body>
+
+    </html>
